@@ -3,6 +3,8 @@
 ## Overview  
 This is a simple password generator web application built using **HTML**, **CSS**, and **JavaScript**. The application allows users to generate random, secure passwords with customizable options, including length, uppercase letters, lowercase letters, numbers, and special characters.
 
+![Screenshot 2025-01-10 022809](https://github.com/user-attachments/assets/5e010682-af33-475a-8048-cd23f9acc3db)
+
 ## Features  
 - Generate strong and secure passwords.  
 - Option to set password length (from 4 to 20 characters).  
