@@ -188,15 +188,35 @@ h1{
     outline:none;
 }
 
-.copyBtn{
+.copyBtn {
+    position:relative;
     background-color:transparent;
     border:none;
     outline:none;
+    cursor:pointer;
 }
 
-.tooltip{
-    background-color:aqua;
+.tooltip {
+    position:absolute;
+    top:-30px;
+    right:0;
+    background-color:var(--vb-yellow);
+    color:var(--dk-text);
+    padding:0.5rem 1rem;
+    border-radius:0.5rem;
+    font-size:1rem;
+    opacity:0;
+    transform:translateY(-10px);
+    transition:opacity 0.3s ease, transform 0.3s ease;
+    pointer-events:none;
+    white-space:nowrap;
 }
+
+.tooltip.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 .slider::-webkit-slider-thumb{
     position:relative;
