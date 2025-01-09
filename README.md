@@ -1,4 +1,4 @@
-![Screenshot 2025-01-09 191702](https://github.com/user-attachments/assets/698ea336-b373-4db9-ae4c-0534fdecd9e5)# Password Generator 🔒
+# Password Generator 🔒
 
 ## Overview  
 This is a simple password generator web application built using **HTML**, **CSS**, and **JavaScript**. The application allows users to generate random, secure passwords with customizable options, including length, uppercase letters, lowercase letters, numbers, and special characters.
